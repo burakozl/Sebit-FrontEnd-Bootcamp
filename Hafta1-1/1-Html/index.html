@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Burak Özel">
+    <meta name="keywords" content="html,css"><!--SEO için-->
+    <link rel="stylesheet" href="style.css"><!--External css-->
+    
+    <title>Html Dersleri</title>
+    <style>
+        /* table, th, td{
+            border: 1px solid red;
+            padding: 15px;
+            text-align: center;
+        } */
+        /* th{
+            text-align: left;
+        } */
+    </style>
+    <script type="text/javascript"></script><!--head içersinde google izleme kodları gibi kodlar koulur js body içersinde en alta koyulur-->
+</head>
+<body>
+    <!-- <h1 style="color:red">Frontend</h1>
+    <h1 style="color: blue; background-color:bisque;">Backend</h1> -->
+
+    <!-- <img src="1.jpg" height="250">
+    <img src="2.jpg" height="250">
+    <img src="3.jpg" height="250">
+    <img src="4.jpg" height="250"> -->
+
+    <!-- <div style="background-image: url('banner.jpg'); height: 650px;">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam temporibus vero reprehenderit dignissimos laboriosam voluptas.
+        </p>
+    </div> -->
+
+    <!-- <table style="width: 100%;">
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Yaş</th>
+            <th>Bölüm</th>
+        </tr>
+        <tr>
+            <td>Burak</td>
+            <td>Özel</td>
+            <td>29</td>
+            <td>Bilg. Müh.</td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>Veli</td>
+            <td>25</td>
+            <td>Felsefe</td>
+        </tr>
+    </table> -->
+    <!--sırasız liste-->
+    <!-- <ul style="list-style-type: none;">
+        <li>Çay</li>
+        <li>Ekmek</li>
+        <li>Limon</li>
+    </ul>
+    <ul>
+        <li>Çay</li>
+        <li>Ekmek</li>
+        <li>Limon</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Çay</li>
+        <li>Ekmek</li>
+        <li>Limon</li>
+    </ul> -->
+    <!--sıralı liste-->
+    <!-- <ol type="A">
+        <li>Kahve</li>
+        <li>Bardak</li>
+        <li>Şeker</li>
+    </ol>
+    <ol type="a">
+        <li>Kahve</li>
+        <li>Bardak</li>
+        <li>Şeker</li>
+    </ol>
+    <ol type="I">
+        <li>Kahve</li>
+        <li>Bardak</li>
+        <li>Şeker</li>
+    </ol>
+    <ol>
+        <li>Kahve</li>
+        <ol type="A">
+            <li>şekerli</li>
+            <li>şekersiz</li>
+        </ol>
+        <li>Bardak</li>
+        <li>Şeker</li>
+    </ol> -->
+    <!-- <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">BMW</option>
+    </select>
+    <select name="frontend">
+        <option value="react">React</option>
+        <option value="angular">Angular</option>
+        <option value="vuejs">Vue Js</option>
+    </select> -->
+    <!-- ----------------------------- -->
+    <!-- Html block element
+	<address><article><aside><blockquote><canvas><dd><div>
+	<dl><dt><fieldset><figcaption><figure><footer><form>
+	<h1>-<h6><header><hr><li><main><nav><noscript><ol><p>
+	<pre><section><table><tfoot><ul><video></video>
+
+
+	Html Inline element
+	<a><abbr><acronym><b><bdo><big><br><button><cite><code>
+	<dfn><em><i><img><input><kbd><label><map><object><output>
+	<q><samp><script><select><small><span><strong><sub><sup>
+	<textarea><time><tt><var> -->
+
+    <!-- <div>
+        dasdasd
+    </div>
+    <div>
+        dasdşasd
+    </div>
+
+    <p>adasdasdasdas</p>
+    <p>dasasdasdasda</p>
+
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+
+    <span>Burak</span>
+    <span>Özel</span>
+
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam repudiandae vel dolor nulla magni, perferendis 
+        repellendus sit eum iure <span style="color:red;">distinctio, </span>quibusdam nostrum eligendi quo, repellat laboriosam reiciendis! Laboriosam, eos nulla.</span></p> -->
+
+    <form>
+        <label>Adınız:</label>
+        <input 
+        type="text" 
+        placeholder="Adınızı giriniz"
+        name="ad"
+        value=""
+        >
+        <label>Soyadınız:</label>
+        <input 
+        type="text" 
+        placeholder="Soyadınızı giriniz"
+        name="soyad"
+        value=""
+        >
+        <label>Şifre:</label>
+        <input 
+        type="password" 
+        placeholder="Şifre giriniz"
+        name="password"
+        value=""
+        >
+        <input type="submit">
+    </form>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, odit doloremque saepe eligendi quaerat voluptas officia delectus provident ad. Dolorum, ex? Necessitatibus, pariatur ab? Assumenda numquam officia asperiores perspiciatis ullam!</p>
+            <h2>Radio Inputlarım</h2>
+            <form>
+                <input 
+                type="radio" 
+                name="gender"
+                value="male"
+                >
+                <label>Male</label>
+                <input 
+                type="radio" 
+                name="gender"
+                value="female"
+                >
+                <label>Female</label>
+            </form>
+            <h2>Checkbox Inputlarım</h2>
+            <form>
+                <input 
+                type="checkbox" 
+                name="gender"
+                value="male"
+                >
+                <label>Male</label>
+                <input 
+                type="checkbox" 
+                name="gender"
+                value="female"
+                >
+                <label>Female</label>
+                <textarea 
+                name=""  
+                cols="30" 
+                rows="10"
+                ></textarea>
+            </form>
+</body>
+</html>
