@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carpet Shop</title>
+    <link rel="shortcut icon" type="image" href="./icons/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md" id="navbar">
+        <a class="navbar-brand" href="#" id="logo"><img src="./icons/logo.png" alt="" width="30px"
+                style="margin: 0 10px 10px 0;">Carpet Shop</a>
+        <!-- Toggler Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span><img src="./icons/menu.png" alt="" width="20px"></span>
+        </button>
+        <!-- Toggler Button End -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#product-cards">Kategoriler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#product-cards">Alışveriş</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">İletişim</a>
+                </li>
+            </ul>
+        </div>
+        <div class="icons">
+            <img src="/icons/search.png" alt="" width="16px">
+            <img src="/icons/user.png" alt="" width="20px">
+            <img src="/icons/shopping-cart.png" alt="" width="20px">
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Çooook İndirimli </h3>
+            <h2>Kategoriler <span class="changecontent"></span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+            <h5>%50 varan indirimler</h5>
+            <a href="#" class="btn">Sepete Ekle</a>
+        </div>
+        <div class="img">
+            <img src="images/background.png" alt="">
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- top card start -->
+    <div class="container mt-5">
+        <div class="row" id="t-cards">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/img2.jpg" alt="" height="225px">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/img1.jpg" alt="" height="225px">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/img3.jpg" alt="" height="225px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top card end -->
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+        <h1 class="text-center">ÜRÜNLER</h1>
+
+        <div class="row" style="margin-top: 50px;">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product1.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet1</h3>
+                        <h5>199₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product2.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet2</h3>
+                        <h5>399₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product3.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet3</h3>
+                        <h5>599₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product4.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet4</h3>
+                        <h5>299₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row" style="margin-top: 50px;">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product1.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet5</h3>
+                        <h5>199₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product2.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet6</h3>
+                        <h5>399₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product3.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet7</h3>
+                        <h5>599₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/product4.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img
+                                    src="./icons/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="./icons/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img
+                                    src="./icons/add carts.png" alt="" width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Carpet8</h3>
+                        <h5>299₺ <span><i><img src="./icons/add.png" alt="" width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product end -->
+    <!-- about us -->
+    <div class="container" id="about">
+        <h1>Hakkımızda</h1>
+        <hr>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, sed sapiente, incidunt repudiandae
+            unde, amet nam provident doloremque ad inventore perferendis voluptates similique hic rem. Facere
+            voluptatibus error adipisci consectetur hic id mollitia delectus, tempore eveniet veniam minima
+            cupiditate reiciendis vero veritatis eum. Perferendis, aut consequatur fugit suscipit voluptas quod
+            praesentium similique quam illo ullam adipisci, officiis omnis architecto distinctio sapiente placeat ut
+            ipsa, natus aliquid sed cum perspiciatis tempore mollitia magnam! Temporibus, omnis. Ad magnam eaque
+            doloremque impedit harum laborum quaerat laudantium tempora esse quam exercitationem, repellat rerum
+            fugiat quos animi molestias perferendis. Quam labore rem similique itaque consequatur?</p>
+        <hr>
+
+    </div>
+    <!-- about us end -->
+
+    <!-- contact us -->
+    <div class="container" id="contact">
+        <h2>İletişim</h2>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./icons/location.png" alt="" width="60px">
+                <p>İstanbul/Avcılar
+                    <br>Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./icons/phone.png" alt="" width="60px">
+                <p>+90 212 000 00 00
+                    <br>+90 216 000 00 00
+                </p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./icons/email.png" alt="" width="60px">
+                <p>example@gmail.com
+                    <br>contact@gmail.com
+                </p>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="usr" placeholder="Adınız">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="phn" placeholder="Telefon Numaranız">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="eml" placeholder="Email adresiniz">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="sbj" placeholder="Konu...">
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" id="comment" rows="5"
+                placeholder="Lütfen mesajınızı buraya yazınız..."></textarea>
+        </div>
+
+        <div id="message"><button>Gönder</button></div>
+
+    </div>
+
+    <!-- contact us end -->
+    <!-- footer -->
+    <footer id="footer" style="margin-top: 50px;">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <a href="#"><img src="./icons/logo.png" alt="" width="32px">Carpet Shop</a>
+                        <p>
+                            Burak <br>
+                            ÖZEL <br>
+                            İstanbul <br>
+                            <strong>Phone:</strong>+90 212 000 00 00 <br>
+                            <strong>Email:</strong>info@carpet-shop.com <br>
+                        </p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Kullanılan Linkler</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Anasayfa</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Hakkımızda</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">İletişim</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Gizlilik Politikası</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Mesafeli Satış Sözleşmesi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Kategoriler</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, veritatis.</p>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Mutfak</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Salon</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Yatak Odası</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Yolluk</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Paspas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Sosyal Ağlarımız</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, porro.</p>
+                        <div class="socail-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="skype"><i class="bx bxl-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; 2022 <strong><span>Carpet Shop</span></strong>. All Rights Reseved
+            </div>
+            <div class="credits">
+                Designed by <a href="#">Burak ÖZEL</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <a href="#" class="arrow"><i><img src="icons/arrow.png" alt=""></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
