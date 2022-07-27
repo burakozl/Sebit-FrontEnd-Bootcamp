@@ -1,3 +1,3 @@
-# Bootsrap ile Web sitesi
+# Bootstrap ile Web sitesi
 
 ![carpet-shop-web-site-ss](carpet-shop.png)
