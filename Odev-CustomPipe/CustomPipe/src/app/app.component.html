@@ -1,0 +1,31 @@
+<div class="container">
+  <h3>Convert Temprature App</h3>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Fahrenheit </label>
+        <input class="form-control" (input)="onTempFahrenheitChange($event.target.value)">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label><b>Celsius</b></label>
+      <div>
+        {{tempFah | convert:'C'}}°
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Celsius </label>
+        <input class="form-control" (input)="onTempCelsiusChange($event.target.value)">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label><b>Fahrenheit</b></label>
+      <div>
+        {{tempCel | convert:'F'}}°F
+      </div>
+    </div>
+  </div>
+</div>
