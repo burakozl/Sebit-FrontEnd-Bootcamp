@@ -1,0 +1,15 @@
+.dialog{
+  display: flex;
+  justify-content: space-between;
+}
+.btnX{
+  font-size: 24px;
+}
+.dialogTitle{
+  display: flex;
+  align-items: center;
+}
+h3
+{
+  margin: 0;
+}
