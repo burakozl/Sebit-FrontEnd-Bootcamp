@@ -1,0 +1,7 @@
+.blogComments{
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px 10px;
+}
+
