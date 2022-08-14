@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "author": "burakk.oozel@gmail.com",
+      "title": "dsad",
+      "content": "dasdasd",
+      "comments": [
+        {
+          "username": "frkblt",
+          "comment": "Test1234"
+        },
+        {
+          "username": "Testimm",
+          "comment": "dsad"
+        },
+        {
+          "username": "dad@",
+          "comment": "test"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "author": "burakk.oozel@gmail.com",
+      "title": "dsad",
+      "content": "dasdasd",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "author": "Ali",
+      "title": "Cv",
+      "content": "asdasdasdadas ASDK lskad LS FJKSDHFKLJSFKSDH FKHSADKFH",
+      "comments": [
+        {
+          "username": "a@hot",
+          "comment": "ÖZEL"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
